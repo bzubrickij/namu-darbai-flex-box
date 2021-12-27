@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: PT Sans, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+
+  background: linear-gradient(45deg, #8f74c3, #5174b6) fixed;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.child {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 30px;
+  text-align: center;
+  width: 250px;
+  height: 500px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  color: black;
+  padding: 50px 20px 10px 20px;
+}
+.container .dog {
+  height: 600px;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+button {
+  line-height: 40px;
+  font-size: 20px;
+  height: 40px;
+  width: 200px;
+  background: #fffc38;
+  border: none;
+  border-radius: 8px;
+}
+#white {
+  font-size: 40px;
+  color: white;
+  text-shadow: #7482b2 3px 3px;
+}
+hr {
+  width: 90%;
+  border: 0.5px solid #7d74c0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#price {
+  font-size: 50px;
+  font-weight: 400;
+}
+section:hover {
+  transform: scale(110%);
+  cursor: pointer;
+}
